@@ -108,4 +108,3 @@ for k in [1,3,5,10,20]:
     #Yval_pred=nn.predict(Xval_row,k=k)
     #Yte_pred=nn.predict(te_row)
     print('accuracy: %f' %(np.mean(Yval_pred==Yval)))
-    
